@@ -1,3 +1,4 @@
+# Código para sortear qualquer coisa, basta substituir as imagens e respeitar os nomes time1.png, time2.png,...,time6.png
 from kivy.app import App
 from kivy.uix.button import Button
 from kivy.uix.image import Image
