@@ -25,7 +25,7 @@ class VencedorApp(App):
         # Gera um número aleatório entre 1 e 6 (índices das imagens)
         vencedor = randint(1, 6)
         # Define a imagem correspondente ao resultado do dado
-        nova_imagem = f'time{vencedor}.png'
+        nova_imagem = 'assets/'+f'time{vencedor}.png'
         self.resultado_sorteio.source = nova_imagem
 
         # Cancela qualquer animação anterior
